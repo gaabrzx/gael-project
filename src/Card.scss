@@ -1,0 +1,40 @@
+@import "./css/variable.scss";
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+    color: black;
+    border-radius: 18px;
+    padding: 20px;
+    width: 350px;
+
+    h1 {
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+        margin: 20px 0px;
+    }
+
+    img {
+        height: 150px;
+    }
+
+    .more-btn {
+        padding: 10px 15px;
+        border-radius: 5px;
+        border: 0;
+        outline: 0;
+        background-color: $main-color;
+        transition: all 300ms;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+
+        }
+    }
+}
